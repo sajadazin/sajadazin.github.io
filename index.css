@@ -11,12 +11,12 @@
              padding: 20px;
         }
 
-        img {
+      .container1 img {
             width:280px;
             height: auto;
         }
 
-      img:hover{
+      .container1:hover img{
           transform: scale(1.1);
         }
 
@@ -30,6 +30,8 @@
             width: 100%;
             padding-block: 12px;
             font-size: 20px;
+            border: none;
+            outline: none;
         }
 
 
@@ -91,7 +93,6 @@
             padding: 10px;
             padding-top: 100px;
             display: none;
-            margin-top: 80px;
             z-index: 1;
         }
 
