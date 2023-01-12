@@ -4,6 +4,7 @@ if (x.classList.toggle("change")) {
 
 document.getElementById("mySidenav").style.width="270px";
 
+
 }
 else {
 document.getElementById("mySidenav").style.width="0";
