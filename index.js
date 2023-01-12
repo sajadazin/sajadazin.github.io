@@ -1,24 +1,12 @@
-function myFunction() {
-    document.getElementById("hide").style.display ="none";
-}
-
-function myfunction2() {
-    document.getElementById("hide").style.display ="block";
-}
-
-function myFunction3() {
-    document.getElementById("show").style.display = "block";
-}
-
 function myFunction5(x) {
 
 if (x.classList.toggle("change")) {
-document.getElementById("hide").style.display="block";
-document.getElementById("hide").style.position="absolute";
+
+document.getElementById("mySidenav").style.width="270px";
 
 }
 else {
-document.getElementById("hide").style.display="none";
+document.getElementById("mySidenav").style.width="0";
 
 
 }
