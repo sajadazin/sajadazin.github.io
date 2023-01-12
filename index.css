@@ -75,7 +75,7 @@
         .sidenav {
         
            height: 100%;
-           overflow-x: none;
+           overflow-x:hidden ;
            overflow-y: scroll;
             background-color: #111;
             list-style: none;
@@ -86,7 +86,6 @@
             font-size: 20px;
             padding: 10px;
             padding-top: 100px;
-            overflow: hidden;
              z-index: 1;
             transition: 0.6s;
             width:0px;
