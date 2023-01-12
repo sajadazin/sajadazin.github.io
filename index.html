@@ -5,27 +5,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sajad azin</title>
 </head>
 <body>
   
         <nav>
-           <div class="container10" onclick="myFunction5(this)">
+           <div  class="container10" onclick="myFunction5(this)">
                 <div class="bar1"></div>
                 <div class="bar2"></div>
                 <div class="bar3"></div>
               </div>
             <li><a href="#">Home</a></li>
-            <li><a href="#">Contact</a></li>
+                <li class="dropdown">
+                    <button class="dropbtn">Contact</button>
+                    <div class="dropdown-content">
+                        <a href="#">Link1</a>
+                        <a href="#">Link2</a>
+                        <a href="#">Link3</a>
+                    </div>
+                </li>
+           
+            
             <li><a href="#">About</a></li>
-            <li><a href="#">product</a></li>
+            <li class="dropdown">
+                <button class="dropbtn">Product</button>
+                <div class="dropdown-content">
+                    <a href="#">Link1</a>
+                    <a href="#">Link2</a>
+                    <a href="#">Link3</a>
+                </div>
+
+            </li>
             <li><a href="#">Contact</a></li>
             <li><a href="#">About</a></li>
         </nav>
 
         <ul class="sidenav" id="mySidenav" >
             <li><a href="#">Home</a></li>
-            <li><a href="#">Contact</a></li>
+            <button class="dropdown-btn">Contact</button>
+            <div class="dropdown-container">
+                <li><a href="#">Link1</a></li>
+                <li><a href="#">Link2</a></li>
+                <li><a href="#">Link3</a></li>
+            </div>
             <li><a href="#">About</a></li>
             <li><a href="#">product</a></li>
             <li><a href="#">Contact</a></li>

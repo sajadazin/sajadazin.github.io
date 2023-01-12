@@ -34,9 +34,6 @@
             outline: none;
         }
 
-
-     
-
         nav {
             display: flex;
             list-style: none;
@@ -52,6 +49,51 @@
             z-index: 200;
           
         }
+        .dropdown {
+            overflow: hidden;
+        }
+
+ .dropdown .dropbtn {
+        
+            border: none;
+            outline: none;
+            font-size: 18px;
+            color: black;
+            font-weight: bolder;
+            background-color: inherit;
+            height: 72px;
+            transition: 0.5s;
+   
+    
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 200px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+          }
+          
+          .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 5px 10px;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+        
+          }
+          .dropdown:hover .dropbtn {
+          border-bottom: 5px solid green;
+           text-transform: uppercase;
+          }
+
+          .dropdown:hover  .dropdown-content {
+             display: block;
+          }
+   
 
         nav > li {
             padding: 5px;
@@ -97,18 +139,58 @@
             line-height: 1.5;
           
         }
-        .sidenav li a {
+        .sidenav li a,.dropdown-btn {
+            border: none;
+            background-color: inherit;
             color: white;
             text-decoration: none;
             padding: 5px;
             display: block;
             transition: 0.4s;
+            text-align: center;
+           
+            width: 100%;
+            outline: none;
+            cursor: pointer;
            
         }
-        .sidenav li a:hover {
+
+        .sidenav .dropdown-btn {
+            
+            line-height: 1.5;
+            margin: 5px;
+
+        }
+        .dropdown-btn {
+            font-size: 20px;
+        }
+
+      .dropdown-btn::before {
+        position: absolute;
+        content: ">";
+       right: 20px;
+        
+      }
+
+    
+        .sidenav li a:hover,.dropdown-btn:hover {
            text-transform:uppercase;
            color: #f1f1f1;
         }
+
+        .active {
+            background-color: green;
+            color: white;
+        }
+
+        .dropdown-container {
+            padding-left: 10px;
+            background-color: #262626;
+            display: none;
+            
+        }
+
+
  
         .content {
             margin-top: 90px;
@@ -137,12 +219,9 @@
             justify-content: center;
         }
 
-
-  
       nav .container10 {
         display: none;
         margin-left: 5px;
-        
       
       }
 
@@ -206,12 +285,22 @@
          padding: 15px;
          border-radius: 10px;
          font-size: 20px;
-   
+         animation: ease;
+         animation-name: example1;
+         animation-duration: 3s;
+         animation-iteration-count: infinite;
+         
+         
+    }
+
+    @keyframes example1 {
+        from {bottom:5px}
+        to {bottom:40px ;}
+        
     }
 
     #myBtn:hover {
         background-color:#21222a;
-      
     }
 
     hr {
@@ -325,6 +414,10 @@ nav .container10 {
     display: block;
 }
 
+nav .dropdown {
+    display: none;
+}
+
 
 
   .container13:hover img {
@@ -353,13 +446,6 @@ nav .container10 {
     .container12 > .container13 {
         width: 90%;
     }
-
-    .container1 {
-        width: 85%;
-        height: auto;
-     
-    }
- 
 
 }
 
