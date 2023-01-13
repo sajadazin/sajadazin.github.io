@@ -26,10 +26,18 @@ mybutton.style.display ="none";
 }
 }
 
-function topFunction() {
-document.body.scrollTop=0;
-document.documentElement.scrollTop =0;
-}
+const scrollBtn = document.querySelector(".btn");
+scrollBtn.addEventListener("click", () => {
+    window.scrollTo({
+        top:0,
+        behavior: "smooth"
+    });
+});
+
+// function topFunction() {
+// document.body.scrollTop=0;
+// document.documentElement.scrollTop =0;
+// }
 
 
 
@@ -47,3 +55,7 @@ for (i=0 ; i <dropdown.length; i++) {
 
     });
 }
+
+
+
+

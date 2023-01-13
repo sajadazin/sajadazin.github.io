@@ -211,6 +211,12 @@
             padding: 0 20px;
           
          }
+         .left p img {
+            width: 100%;
+         }
+         .right p img {
+            width: 100%;
+         }
          .header {
             text-align: center;
          }
@@ -420,6 +426,7 @@
     .main > .left {
         width: 100%;
     }
+
    .main > .right{
         width: 100%;
     }
