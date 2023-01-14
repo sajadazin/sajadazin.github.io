@@ -301,7 +301,7 @@
          padding: 15px;
          border-radius: 10px;
          font-size: 20px;
-         animation: ease;
+         animation: ease-in-out;
          animation-name: example1;
          animation-duration: 3s;
          animation-iteration-count: infinite;

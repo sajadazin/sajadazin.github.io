@@ -26,7 +26,7 @@ mybutton.style.display ="none";
 }
 }
 
-const scrollBtn = document.querySelector(".btn");
+const scrollBtn = document.getElementById("myBtn");
 scrollBtn.addEventListener("click", () => {
     window.scrollTo({
         top:0,
