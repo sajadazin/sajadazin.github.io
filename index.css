@@ -200,7 +200,6 @@
             line-height:1.5;
             font-weight: 700;
             background-color: #d9d9d9; 
-            box-shadow: 0px 0px 10px 2px red;
          }
         .main > .left {
             padding: 0 20px;
@@ -218,9 +217,6 @@
          .right p img {
             width: 100%;
             border-radius: 10px;
-         }
-         .header {
-            text-align: center;
          }
 
         .footer {
