@@ -443,7 +443,6 @@ nav .dropdown {
 }
 
 
-
   .container13:hover img {
     background-color: none;
     transform: rotate(0deg) scale(1);
@@ -465,14 +464,15 @@ nav .dropdown {
       padding: 0;
       margin: 0;
    }
-
-   
    .container1 img {
-    max-width:100%;
-  
+    max-width: 100%;
+   }
+
+
+   .container >.container1 {
+    margin: 0;
+    padding: 0;
+
 }
-
-
-
 }
 
