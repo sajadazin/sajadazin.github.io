@@ -210,6 +210,12 @@
             padding: 0 20px;
           
          }
+         .main .home {
+            max-width: 100%;
+            max-height: 500px;
+            border-radius: 20px;
+         }
+
          .left p img {
             width: 100%;
             border-radius: 10px;
@@ -468,5 +474,6 @@ nav .dropdown {
     max-width: 100%;
 
 } 
+
 }
 
