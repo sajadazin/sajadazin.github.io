@@ -345,8 +345,8 @@
     transition: 0.9s;
 }
 .container12 >.container13 {
-   width: 200px;
-    max-width: 100%;
+    width: 200px;
+    height: auto;
     padding: 0;
     margin: 13px 10px;
     background-color: #f2f2f2;
@@ -475,8 +475,9 @@ nav .dropdown {
 } 
 
 .container12 > .container13 {
-    margin: 13px 0;
+    margin: 15px 0;
     padding: 0;
+    width: 80%;
 }
 
 }
