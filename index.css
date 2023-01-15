@@ -481,9 +481,12 @@ nav .dropdown {
     margin: 0;
 
 }
-.container12 > .container13 {
-   padding-left: 20px;
-   padding-right: 20px;
+
+.container12 >.container13 {
+    width: 100%;
+    padding:5px 20px;
+
+
 }
 
 }
